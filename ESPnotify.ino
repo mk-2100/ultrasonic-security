@@ -13,7 +13,7 @@ void setup() {
   if (WiFi.status() != WL_CONNECTED) {
     delay(100);
   }
-  
+
   Serial.print("Connected! IP: ");
   Serial.println(WiFi.localIP());
 }
